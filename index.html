@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Electron JSON Saver</title>
+</head>
+<body>
+  <h1>Electron JSON Save Example</h1>
+  <button onclick="saveData()">Save JSON to Documents</button>
+
+  <script>
+    function saveData() {
+      const data = {
+        "File path": "folder/file.pdf",
+        "Date Created": "10-18-2025",
+        "Study Group Name": "Math Group",
+        "Class Name": "Calculus 1",
+        "Name of file": "Limits Notes",
+        "1-sentence description": "Quick notes on limits and derivatives."
+      };
+
+      window.electronAPI.saveJSON(data);
+    }
+  </script>
+</body>
+</html>
