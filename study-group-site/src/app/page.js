@@ -1,7 +1,11 @@
+import HomeHeader from "./HomeHeader.js"
+import NavBar from "./NavBar.js"
+import './globals.css';
 
 
 export default function Home() {
   return (
-    "a"
+    <><HomeHeader></HomeHeader>
+    <NavBar></NavBar></>
   );
 }
