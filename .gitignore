@@ -1,0 +1,58 @@
+Dependencies
+
+/node_modules
+/.pnp
+.pnp.js
+
+Next.js build output
+
+/.next/
+/out/
+
+SWC cache
+
+/.swc/
+
+Static site generator build files
+
+/build
+
+Test results
+
+/coverage/
+
+Local environment variables
+
+Exclude all .env files files except .env.example
+
+.env..local
+.env.local
+.env.development
+.env.production
+.env.test
+
+Log files
+
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+Editor directories and files
+
+.vscode/
+.idea/
+..swp
+*.sublime-workspace
+*.sublime-project
+
+macOS specific files
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+Misc
+
+*.pem
