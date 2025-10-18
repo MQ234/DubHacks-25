@@ -4,7 +4,10 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "electron .",
+    "build-next": "cd study-group-site && npm run build",
+    "install-all": "npm install && cd study-group-site && npm install"
   },
   "keywords": [],
   "author": "",
